@@ -7,19 +7,16 @@ To use this project, you must have Python 3.x and pip installed on your system. 
 
 Installation
 - To install the required Python packages for this project, navigate to the project directory and run the following command:
-
-Copy code
-pip install -r requirements.txt
-This will install all the required packages, including requests and matplotlib.
+- Copy code: pip install -r requirements.txt
+- This will install all the required packages, including requests and matplotlib.
 
 Usage
 - To use this project, navigate to the project directory and run the following command:
+- Copy code: python main.py
+- This will start the program and download the latest COVID-19 data from the New York Times GitHub repository. The program will then calculate a seven-day   moving average for San Francisco and display a graph of the data.
 
-Copy code
-python main.py
-This will start the program and download the latest COVID-19 data from the New York Times GitHub repository. The program will then calculate a seven-day moving average for San Francisco and display a graph of the data.
-
-You can modify the program to analyze other regions by changing the value of the location variable in main.py. By default, the program is set to analyze data for San Francisco, but you can change this to any region available in the data.
+Capabilities:
+- You can modify the program to analyze other regions by changing the value of the location variable in main.py. By default, the program is set to analyze    data for San Francisco, but you can change this to any region available in the data.
 
 
 Acknowledgements
