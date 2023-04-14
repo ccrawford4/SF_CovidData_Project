@@ -6,14 +6,14 @@ Requirements
 To use this project, you must have Python 3.x and pip installed on your system. You can download Python from the official website https://www.python.org/downloads/ and pip is included with Python starting from version 3.4.
 
 Installation
-To install the required Python packages for this project, navigate to the project directory and run the following command:
+- To install the required Python packages for this project, navigate to the project directory and run the following command:
 
 Copy code
 pip install -r requirements.txt
 This will install all the required packages, including requests and matplotlib.
 
 Usage
-To use this project, navigate to the project directory and run the following command:
+- To use this project, navigate to the project directory and run the following command:
 
 Copy code
 python main.py
@@ -23,4 +23,4 @@ You can modify the program to analyze other regions by changing the value of the
 
 
 Acknowledgements
-This project utilizes data from the New York Times GitHub repository. Special thanks to them for making this data available for public use.
+- This project utilizes data from the New York Times GitHub repository. Special thanks to them for making this data available for public use.
