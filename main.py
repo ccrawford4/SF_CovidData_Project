@@ -11,6 +11,8 @@ file_urls = ['https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-
 
 fileName = 'covidData.txt' # Creates a file name which will store the data locally
 
+location = "San Francisco"
+
 WINDOW = 7 # Intializes WINDOW with seven which will be used to calculate the moving average
 
 
@@ -44,7 +46,7 @@ def fReadInputFile(file_path): # Initializes fReadInput file with file_path as p
 
 	list_SF = []
 	for i in range(len(list_contents)): # Iterates through the list and adds only the elements containg SF data
-		if "San Francisco" in list_contents[i]:
+		if location in list_contents[i]:
 			list_SF.append(list_contents[i])
 	
 	count = 0
